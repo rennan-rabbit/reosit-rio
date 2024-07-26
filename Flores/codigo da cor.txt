@@ -1,0 +1,8 @@
+Hex value:
+#dac2fe
+
+RGB Value:
+rgb(218, 194, 254)
+
+HSL Value:
+hsl(264,97%,88%)

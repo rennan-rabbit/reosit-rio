@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+body {
+  background: url(../img.princesas/background.login.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  background-color: rgba(255, 255, 255, 0.511);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Playwrite AU QLD', cursive;
+}
+
+h2 {
+  font-family: 'Playwrite AU QLD', cursive;
+  background-color: #c500cc9d;
+  color: #e4e0e0d1;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  .login__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .login__header img {
+    width: 450px;
+
+  }
+  .img2 {
+     width: 450px;
+     height: 300px; 
+  }
+  
+  
+  .login__header h1 {
+    color: #c500cc;
+    font-size: 1.5em;
+  }
+  
+  .login__input {
+    background-color: #e4e0e0;
+    border: 2px solid #c500cc9d;
+    border-radius: 8px;
+    color: #c500cc9d;
+    font-size: 1em;
+    font-family: 'Playwrite AU QLD', cursive;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login__button {
+    background-color: #f823ff9d;
+    border: 3px solid #c500cc9d;
+    border-radius: 8px;
+    color: #e4e0e0;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Playwrite AU QLD', cursive;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .login__button:disabled {
+    background-color: #eee;
+    border: 2px solid #969595;
+    color: #aaa;
+    cursor: auto;
+  }
